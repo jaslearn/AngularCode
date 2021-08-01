@@ -1,0 +1,46 @@
+    <span>{{ title }} app is running!</span>
+    <hr/>
+    <h3>Component Demo</h3>
+    <app-my-comp></app-my-comp>
+    <hr/>
+    <h3>Directives Demo</h3>
+    <app-directive-demo></app-directive-demo>
+    <hr/>
+    <h3>Pipes Demo</h3>
+    <app-pipes-demo></app-pipes-demo>
+    <hr/>
+    <h3>One Way Data Binding</h3>
+    <app-data-binding-one></app-data-binding-one>
+    <hr/>
+    <h3>Two Way Data Binding</h3>
+   <app-data-binding-two></app-data-binding-two>
+   <hr/>
+   <h3>Template Driven Forms</h3>
+   <app-template-forms></app-template-forms>
+   <hr/>
+   <h3>Reactive Forms</h3>
+<app-reactive-forms></app-reactive-forms>
+<hr/>
+<h3>Service Demo</h3>
+<app-service-demo></app-service-demo>
+<hr/>
+<h3>Http Client</h3>
+<app-http-client></app-http-client>
+<hr/>
+
+<h3>Using Router</h3>
+<div class="cotainer-fluid">
+    <nav>
+        <li><a routerLink="/component">Component</a></li>
+        <li><a routerLink="/Directives">Directives</a></li>
+        <li><a routerLink="/Pipes">Pipes</a></li>
+        <li><a routerLink="/DataBinding1">DataBinding1</a></li>
+        <li><a routerLink="/DataBinding2">DataBinding2</a></li>
+        <li><a routerLink="/TemplateForms">TemplateForms</a></li>
+        <li><a routerLink="/ReactiveForms">ReactiveForms</a></li>
+        <li><a routerLink="/ServiceDemo">ServiceDemo</a></li>
+        <li><a routerLink="/HttpClientDemo">HttpClientDemo</a></li>
+    </nav>
+</div>
+<router-outlet></router-outlet>
+

@@ -1,0 +1,8 @@
+<p>directive-demo works!</p>
+<button (click)="show = !show">{{show ? 'hide' : 'show'}}</button>
+    show = {{show}}
+    <br>
+    <div *ngIf="show">Text to show</div>
+
+    <br/>
+    <p appText>Hello I am RED </p>

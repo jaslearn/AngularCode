@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+          <a routerLink="component" class="nav-link" routerLinkActive="active">Component</a>
+      </li>
+      <li class="nav-item">
+          <a routerLink="Directives" class="nav-link" routerLinkActive="active">Directives</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="Pipes" class="nav-link" routerLinkActive="active">Pipes</a>
+    </li>
+    <li class="nav-item">
+        <a routerLink="DataBinding1" class="nav-link" routerLinkActive="active">DataBinding1</a>
+    </li>
+    <li class="nav-item">
+        <a routerLink="DataBinding2" class="nav-link" routerLinkActive="active">DataBinding2</a>
+    </li>
+    <li class="nav-item">
+        <a routerLink="TemplateForms" class="nav-link" routerLinkActive="active">TemplateForms</a>
+    </li>
+    <li class="nav-item">
+        <a routerLink="ReactiveForms" class="nav-link" routerLinkActive="active">ReactiveForms</a>
+    </li>
+    <li class="nav-item">
+        <a routerLink="ServiceDemo" class="nav-link" routerLinkActive="active">ServiceDemo</a>
+    </li>
+    <li class="nav-item">
+        <a routerLink="HttpClientDemo" class="nav-link" routerLinkActive="active">HttpClientDemo</a>
+    </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <br>
+    <h2 style="text-align: center;">{{title}}</h2>
+    <hr>  
+    <div class="card">
+      <div class="card-body">
+    <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
